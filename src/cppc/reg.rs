@@ -1,3 +1,4 @@
+#[derive(Copy, Clone)]
 #[repr(u32)]
 pub enum CppcReg {
     HighestPerformance              = 0x00000000,
