@@ -1,0 +1,2 @@
+pub const NO_REASON: u32 = 0x00000000;
+pub const SYSTEM_FAILURE: u32 = 0x00000001;

@@ -1,0 +1,3 @@
+pub const SHUTDOWN: u32 = 0x00000000;
+pub const COLD_REBOOT: u32 = 0x00000001;
+pub const WARM_REBOOT: u32 = 0x00000002;
