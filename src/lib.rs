@@ -1,15 +1,23 @@
 #![no_std]
 
 pub mod base;
+pub mod cppc;
+pub mod dbtr;
 pub mod debug_console;
 pub mod eid;
+pub mod fwft;
 pub mod hart_mask;
 pub mod hsm;
 pub mod ipi;
 pub mod legacy;
+pub mod mpxy;
+pub mod nacl;
 pub mod pmu;
 pub mod rfence;
 pub mod srst;
+pub mod sse;
+pub mod sta;
+pub mod susp;
 pub mod timer;
 
 pub const EXTENSIONS: &[(&str, usize)] = &[
