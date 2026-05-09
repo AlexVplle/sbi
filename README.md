@@ -2,6 +2,8 @@
 
 RISC-V SBI (Supervisor Binary Interface) bindings.
 
+Implements [SBI specification v3.0](https://github.com/riscv-non-isa/riscv-sbi-doc/releases/download/v3.0/riscv-sbi.pdf).
+
 ## Extensions
 
 | Extension | Module |
